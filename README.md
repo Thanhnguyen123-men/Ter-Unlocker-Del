@@ -1,13 +1,19 @@
-# 🛠️ Ter-Unlocker Del (V1.0)
+# 🛠️ Ter-Unlocker Del (V1.3.6)
 
 **Ter-Unlocker Del** là công cụ mạnh mẽ được thiết kế để quét các tiến trình đang khóa (locker) và cưỡng chế xóa các tệp tin/thư mục cứng đầu trên Windows.(Bảo vệ bởi TrustedInstaller check hoặc đại loại thế)
 
-## 1. Cơ chế hoạt động & Quyền hạn
+## 1. Cơ chế hoạt động & Quyền hạn & Cách dùng
 * **Xác nhận UAC:** Khi khởi động, Windows sẽ hiện bảng UAC để yêu cầu quyền Administrator (hoặc không hiện ở một số máy/User tùy cài đặt). Bạn cứ mạnh dạn click `YES/OK` vì nếu bấm `NO` thì app sẽ bật lên bằng niềm tin 🗣🔥.
 
 <img width="455" height="345" alt="image" src="https://github.com/user-attachments/assets/10d2524c-7d0f-45dc-b0d0-49f74bb43ac0" />
 
 * **Cảnh báo Anti-Virus:** Đôi khi các phần mềm AV (mang tiếng là Anti-Virus nhưng thực chất là Anti-Malware thì đúng hơn) sẽ nhảy thông báo chặn. Lý do rất dễ hiểu: Tool cần can thiệp sâu vào hệ thống để "Kill locker" và thực hiện lệnh xóa vĩnh viễn **không trăn trối (dành cho file/folder bị kill)**.
+
+Bước 1: Tải file .exe từ mục [Releases](https://github.com/Thanhnguyen123-men/Ter-Unlocker-Del/releases/tag/v.1.3.6)
+
+Bước 2: *Click chuột phải*, chọn *Run as Administrator* (bắt buộc) hoặc là bấm open vì nó đã build bằng `--uac-admin` sẵn rồi.
+
+Bước 3: Nhập đường dẫn file/folder cần xóa và làm theo hướng dẫn ở trên.
 
 ## 2. Hiệu năng & Cảnh báo (LAG ALERT!)
 * **Cực kỳ ngốn tài nguyên:** Vì cơ chế phải scan sâu toàn bộ tiến trình hệ thống nên khi chạy sẽ cực kỳ **LAG**.
